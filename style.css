@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Radley:ital@0;1&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+
+.italic-font{
+    font-family: "Imperial Script", serif;
+    font-optical-sizing: auto;
+    /* font-weight: 10px; */
+    font-style: normal;
+  }
+.reg-font {
+    font-family: "Radley", serif;
+    /* font-weight: 400; */
+    font-style: normal;
+}
+
+/* header css */
+header{
+    background-color: rgb(255, 235, 210);
+
+}
+header h1{
+    color: rgb(90, 66, 1);
+}
+
+.hero-btn{
+    color: beige;
+    background-color: rgb(121, 89, 0);
+}
+
+.hero-section{
+    background-color: rgb(255, 235, 210);
+    
+    
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slideshow-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .slideshow-image.active {
+    opacity: 1;
+    z-index: 1;
+  }
+  /* header css ends */
+
+
+  /* Gallery Css Starts */
+  .gallery{
+    color:  rgb(121, 89, 0);
+  }
+  .gallery img {
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  .gallery img:hover {
+    transform: scale(1.1); 
+  }  
+  /* Gallery Css Ends */
+
+
+  /* Schedule starts */
+  .schedule{
+    color: rgb(121, 89, 0);
+  }
+  /* Schedule ends */
+
+
+
+/* Story Css Starts */
+.story h1{
+  color: rgb(90, 66, 1);
+}
+
+
+
+
+
+
+/* Story Css Ends */
+
+
+  /* venue css starts */
+.venue-box{
+
+    background-color:rgb(71, 52, 0);
+}
+.venue-details{
+    background-color: rgb(255, 235, 210);
+}
+
+  /* venue css ends */
+

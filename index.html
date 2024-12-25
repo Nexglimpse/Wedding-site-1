@@ -40,16 +40,16 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                 <ul class="font-medium text-center flex flex-col p-4 md:p-0 mt-4 md:border border-gray-100 rounded-lg md:flex-row md:space-x-14 rtl:space-x-reverse md:mt-0 md:border-0">
                     <li class="border-b md:border-0 mb-2 md:mb-0">
-                        <a href="#" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">GALLERY</a>
+                        <a href="#gallery" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">GALLERY</a>
                     </li>
                     <li class="border-b md:border-0 mb-2 md:mb-0">
-                      <a href="#" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">SCHEDULE</a>
+                      <a href="#schedule" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">SCHEDULE</a>
                     </li>
                     <li class="border-b md:border-0 mb-6 md:mb-0">
-                      <a href="#" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">OUR STORY</a>
+                      <a href="#ourstory" class="block py-2 px-5 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-yellow-600 md:p-0 reg-font">OUR STORY</a>
                     </li>
                     <li class="mb-2 md:mb-0">
-                      <a href="#" class="reg-font block md:inline font-medium text-lg text-center py-3 px-5 bg-yellow-500 mb-10 lg:mb-0 text-center hero-btn">VENUE</a>
+                      <a href="#venue" class="reg-font block md:inline font-medium text-lg text-center py-3 px-5 bg-yellow-500 mb-10 lg:mb-0 text-center hero-btn">VENUE</a>
                     </li>
                 </ul>
             </div>
@@ -69,7 +69,7 @@
 
                     <p class="reg-font text-lg lg:text-xl xl:text-2xl pt-7 text-center">Sunday, March 17, 2030 <br> At 5am <br> 123, Anywhere street, Any city</p>
                     <div class="flex justify-center items-center mt-7">
-                        <a href="#" class="reg-font font-medium text-lg text-center py-3 px-5 bg-yellow-500 mb-10 lg:mb-0 text-center hero-btn">Venue Details</a>
+                        <a href="#venue" class="reg-font font-medium text-lg text-center py-3 px-5 bg-yellow-500 mb-10 lg:mb-0 text-center hero-btn">Venue Details</a>
                     </div>
                 </div>
             </div>
@@ -251,7 +251,7 @@
 
     <!-- Our Story Starts -->
       <!-- Story Section -->
-    <section class="story w-full">
+    <section class="story w-full" id="ourstory">
       <h1 class="reg-font text-4xl lg:text-6xl pb-8 lg:pt-16 pt-10 text-center underline" data-aos="fade-up"
       data-aos-duration="3000">Our Story</h1>
   <div class="lg:flex">
@@ -260,12 +260,12 @@
       <img src="image/hero-img.jpg" class=" rounded-full" alt="">
     </div>
 
-    <div class="flex justify-start items-start pt-24 w-1/2">
+    <div class="flex lg:justify-start justify-center items-start  pt-10 lg:pt-24 lg:w-1/2">
       <p class="reg-font text-sm lg:text-lg text-black  text-center w-[90%]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet porro neque tempore consequatur impedit, sapiente nihil, soluta doloremque nulla quo, a laudantium maiores possimus aliquam aliquid earum nesciunt. At, velit. <br> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem cum earum exercitationem ea enim dolores? Laborum, laboriosam, libero, voluptatem architecto error rem assumenda dolore similique id veritatis adipisci explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis cupiditate omnis, consequatur sed dolorem! Quod cupiditate labore, iure, assumenda temporibus deleniti unde quae eaque, vero accusamus rem consequuntur suscipit.</p>
   </div>
   </div>
 
-  <div class="lg:flex mt-24">
+  <div class="lg:flex mt-24 hidden ">
 
 
     <div class="flex justify-end items-start pt-24 w-1/2">
@@ -275,6 +275,21 @@
     <div class=" flex justify-center items-center px-24 lg:px-[150px] lg:w-1/2">
       <img src="image/hero-img.webp" class=" rounded-full" alt="">
     </div>
+
+
+  </div>
+<!-- mobile view -->
+  <div class="lg:hidden mt-10  ">
+
+    
+    <div class=" flex justify-center items-center px-24 lg:px-[150px] lg:w-1/2">
+      <img src="image/hero-img.webp" class=" rounded-full" alt="">
+    </div>
+
+    <div class="flex lg:justify-end justify-center items-start pt-10 lg:pt-24 lg:w-1/2">
+      <p class="reg-font text-sm lg:text-lg text-black  text-center w-[90%]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet porro neque tempore consequatur impedit, sapiente nihil, soluta doloremque nulla quo, a laudantium maiores possimus aliquam aliquid earum nesciunt. At, velit. <br> <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis autem cum earum exercitationem ea enim dolores? Laborum, laboriosam, libero, voluptatem architecto error rem assumenda dolore similique id veritatis adipisci explicabo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim quis cupiditate omnis, consequatur sed dolorem! Quod cupiditate labore, iure, assumenda temporibus deleniti unde quae eaque, vero accusamus rem consequuntur suscipit.</p>
+  </div>
+
 
 
   </div>
@@ -311,7 +326,7 @@
           </div>
     
           <div class="flex justify-start items-center mt-7">
-            <a href="#" class="reg-font font-medium text-lg text-center py-3 px-5 bg-yellow-600 mb-10 lg:mb-0 text-center hero-btn">View In Map</a>
+            <a href="https://www.google.com/maps/place/Sree+Varaaham+Hall/@13.074797,80.198723,61431m/data=!3m1!1e3!4m6!3m5!1s0x3a5266a61c34dad7:0x52bb41a013683ba2!8m2!3d13.0747967!4d80.1987228!16s%2Fg%2F11bz_7xsry?hl=en&entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" class="reg-font font-medium text-lg text-center py-3 px-5 bg-yellow-600 mb-10 lg:mb-0 text-center hero-btn">View In Map</a>
           </div>
         </div>
       </div>
